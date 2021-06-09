@@ -1,2 +1,2 @@
 # UglyEngine
-A simple C++ / Vulkan hobby engine
+A simple C++ / Vulkan engine

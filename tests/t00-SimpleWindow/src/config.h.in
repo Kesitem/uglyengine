@@ -1,0 +1,25 @@
+#pragma once
+
+namespace ugly
+{
+	namespace application
+	{
+		static const std::string NAME = "@PROJECT_NAME@"; 
+	}
+
+	/**
+	 * \brief Version namespace.
+	 */
+	namespace version
+	{
+		//Standard Version Type
+		static const long MAJOR = @PROJECT_VERSION_MAJOR@;
+		static const long MINOR = @PROJECT_VERSION_MINOR@;
+		static const long BUILD = @PROJECT_VERSION_PATCH@;
+
+		//Miscellaneous Version Types
+		static const char FULLVERSION_STRING[] = "@PROJECT_VERSION_MAJOR@.@PROJECT_VERSION_MINOR@.@PROJECT_VERSION_PATCH@";
+
+	}//namespace version
+
+}//namespace ugly
